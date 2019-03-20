@@ -1,0 +1,61 @@
+// html {
+//   touch-action: none;
+// }
+.scratch-card {
+  width: 300px;
+  height: 150px;
+  position: relative;
+  background: #fff;
+  &_info {
+    // position: absolute;
+    // top: 0;
+    // left: 0;
+    // right: 0;
+    // bottom: 0;
+    // z-index: 1;
+    height: 100%;
+    text-align: center;
+
+    p.prompt {
+      padding-top: 35px;
+      font-size: 18px;
+      em {
+        font-style: normal;
+        color: #f65;
+      }
+    }
+    .btn {
+      outline: 0 none;
+      -webkit-appearance: none;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      word-break: break-word;
+      white-space: nowrap;
+      text-align: center;
+      box-sizing: border-box;
+      font-size: 18px;
+      height: 47px;
+      line-height: 47px;
+      color: #fff;
+      background-color: #e94f4f;
+      border: 1px solid #e94f4f;
+      border-radius: 5px;
+      position: relative;
+      display: block;
+      margin: 0 45px;
+      cursor: pointer;
+      &.active {
+        color: hsla(0, 0%, 100%, 0.3);
+        background-color: #d24747;
+      }
+    }
+  }
+  .canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 2;
+  }
+}

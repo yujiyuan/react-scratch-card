@@ -1,0 +1,47 @@
+{
+  "name": "react-scratch-card",
+  "version": "1.0.0",
+  "author": "yujiyuan <907392863@qq.com>",
+  "license": "MIT",
+  "description": "刮刮卡",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --mode development",
+    "compile": "npx babel src --out-dir lib --copy-files",
+    "build": "webpack --progress"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yujiyuan/react-scratch-card.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yujiyuan/react-scratch-card/issues"
+  },
+  "homepage": "https://github.com/yujiyuan/react-scratch-card#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.2.2",
+    "@babel/plugin-proposal-class-properties": "^7.3.4",
+    "@babel/preset-env": "^7.3.1",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.5",
+    "babel-preset-stage-1": "^6.24.1",
+    "css-loader": "^2.1.0",
+    "html-webpack-plugin": "^3.2.0",
+    "node-sass": "^4.11.0",
+    "prop-types": "^15.7.2",
+    "sass": "^1.17.2",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.29.5",
+    "webpack-cli": "^3.2.3",
+    "webpack-dev-server": "^3.2.1"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.2.5",
+    "react": "^16.8.4",
+    "react-dom": "^16.8.4",
+    "scss": "^0.2.4"
+  }
+}
